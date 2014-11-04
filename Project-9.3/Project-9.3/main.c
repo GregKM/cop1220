@@ -37,8 +37,6 @@ int main(void)
 		printfunc(ch, column, row);
 		printf("\nEnter next character (# to quit): ");
 	}
-	
-	printf("Bye!\n");
 
 	return 0;
 }
