@@ -7,18 +7,18 @@
 
 int main(void)
 {
-	float WaterQuart;
-	float WaterMolecule;
+	float quart;
+	float molecule;
 
-	float MoleculeGrams = 950;
-	float QuartGrams = 3.0e-23;
+	float mgrams = 950;
+	float qgrams = 3.0e-23;
 
-	printf("Please enter an amount of water in quarts. ");
-	scanf("%f", &WaterQuart);
+	printf("Enter water in quarts: ");
+	scanf("%f", &quart);
 
-	WaterMolecule = WaterQuart * MoleculeGrams / QuartGrams;
+	molecule = quart * mgrams /	qgrams;
 
-	printf("There are %e molecules in %f quarts.\n", WaterMolecule, WaterQuart);
+	printf("There are %e molecules in %f quarts.\n", molecule, quart);
 
 	getchar();
 	getchar();

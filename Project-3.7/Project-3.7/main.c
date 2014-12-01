@@ -8,14 +8,14 @@
 int main(void)
 {
 	float inches;
-	float centi;
+	float cent;
 
 	printf("Please enter your height in inches: ");
 	scanf("%f", &inches);
 
-	centi = inches * 2.54;
+	cent = inches * 2.54;
 
-	printf("Your height in centimeters is %f\n", centi);
+	printf("Your height in centimeters is %f\n", cent);
 
 	getchar();
 	getchar();

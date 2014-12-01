@@ -7,12 +7,13 @@
 
 int main(void)
 {
-	int CodeVal;
+	int ascii;
 
-	printf("Please enter an ASCII code value: ");
-	scanf("%d", &CodeVal);
-	printf("You entered %d. That value is associated with %c.\n", CodeVal, CodeVal);
+	printf("Please enter an ASCII code: ");
+	scanf("%d", &ascii);
+	printf("You entered %d. That is %c.\n", ascii, ascii);
 
+	getchar();
 	getchar();
 	getchar();
 
